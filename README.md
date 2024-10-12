@@ -23,6 +23,17 @@ A simple Flask application that scrapes images from a specified URL, allows user
    git clone https://github.com/yourusername/flask-image-scraper.git
    cd flask-image-scraper
 
+## Folder Structure
+
+Your project folder should have the following structure:
+flask-image-scraper/ │ 
+├── app.py # Main Flask application 
+├── templates/ # Folder for HTML templates 
+ ├── index.html # Homepage template 
+ │── results.html # Results page template 
+ │── download.html # Download page template 
+│── zips/ # Folder where zip files will be saved (it will be generated)
+
 ## Install the libraries
 pip install Flask requests beautifulsoup
 
