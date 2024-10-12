@@ -23,22 +23,22 @@ A simple Flask application that scrapes images from a specified URL, allows user
    git clone https://github.com/yourusername/flask-image-scraper.git
    cd flask-image-scraper
 
-**Install the libraries**
-pip install Flask requests beautifulsoup4
+## Install the libraries
+pip install Flask requests beautifulsoup
 
-**Run the application**
+## Run the application**
 python app.py
 
 Open your web browser and go to the website that the code gives (a local server)
 
-**Usage**
+## Usage
 Enter the URL of the webpage you want to scrape in the input field.
 Optionally, enter keywords (one per line) that you want to ignore while scraping images.
 Click the "Scrape" button.
 The application will display the images that were ignored and provide a link to download the zip file of valid images.
 You can also select ignored images and create a zip file for them.
 
-**Error Handling**
+## Error Handling
 If no images are found on the specified URL, the application will notify the user.
 If the URL is invalid or an error occurs during scraping, an error message will be displayed.
 
